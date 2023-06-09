@@ -1,0 +1,40 @@
+.content-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  row-gap: 3vh;
+}
+
+.welcome section {
+  flex: 1 0 82%;
+}
+
+h1 {
+  font-size: clamp(26px, 2.2vw, 2vw);
+}
+h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  border-radius: 17px;
+  padding: 2vw;
+  height: 25vh;
+  align-items: center;
+}
+.welcome figure {
+  flex: 1 0 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.welcome figure img {
+  width: 70%;
+}

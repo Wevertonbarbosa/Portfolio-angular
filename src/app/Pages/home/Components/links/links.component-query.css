@@ -1,0 +1,11 @@
+@media (max-width: 997px){
+  #linkedin-img{
+    max-width: 47%;
+  }
+  #github-img{
+    max-width: 47%;
+  }
+  #fiap-img{
+    max-width:41%;
+  }
+}

@@ -1,0 +1,10 @@
+.gif-curriculo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gif-curriculo img {
+  width: 102px;
+  padding-bottom: 1em;
+}

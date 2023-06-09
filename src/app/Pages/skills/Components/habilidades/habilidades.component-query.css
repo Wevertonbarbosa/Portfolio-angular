@@ -1,0 +1,40 @@
+@media (max-width:1066px) {
+  .seta-voltar p {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  .content-skills {
+    grid-template-columns: 40vw 40vw;
+  }
+
+  .skill img {
+    width: 12vw;
+  }
+
+  .seta-voltar {
+    left: -20px;
+  }
+}
+
+
+@media (max-width:550px) {
+  .content-skills {
+    grid-template-columns: 60vw;
+  }
+
+  .skill img {
+    width: 20vw;
+  }
+}
+
+@media (max-width:320px){
+  .content-skills {
+    grid-template-columns: 75vw;
+  }
+  
+  .skill img {
+    width: 30vw;
+  } 
+}

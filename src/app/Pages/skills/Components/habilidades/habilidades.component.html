@@ -1,0 +1,32 @@
+<div class="content-main-skill">
+
+  <section class="seta-voltar">
+    <figure>
+      <a routerLink="/">
+        <img
+          src="https://d9hhrg4mnvzow.cloudfront.net/serpolengenharia.com.br/lp-tratamento-concreto/6bc7a642-012d1a89-seta-2.gif"
+          alt="Seta voltar Home">
+      </a>
+    </figure>
+  </section>
+
+  <div class="conteudo">
+    <div class="title">
+      <section class="title-skill">
+        <h3>Habilidades /> </h3>
+        <h4><i> Skills/Programming languages</i></h4>
+      </section>
+    </div>
+
+    <div class="container-master-skill">
+      <div class="content-skills">
+        <div *ngFor="let skill of skills" class="skill">
+          <img #target src="{{skill.url}}" alt="{{skill.linguagem}}">
+          <h3>{{skill.linguagem}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-menu></app-menu>

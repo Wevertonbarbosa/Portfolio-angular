@@ -1,0 +1,44 @@
+<div class="container-pai-cards">
+
+  <div class="container-main-cards">
+
+      <div class="card-content">
+        
+          <div class="carousel-container">
+            <div class="carousel-controls">
+              <button (click)="prevImage()">&#8249;</button>
+            </div>
+
+            <div class="carousel">
+              <img [src]="images[currentImageIndex].src" [alt]="images[currentImageIndex].alt">
+            </div>
+
+            <div class="carousel-controls">
+              <button (click)="nextImage()">&#8250;</button>
+            </div>
+          </div>
+
+        <div class="card-descricao-text">
+          <h4 class="text-white">
+            <a [href]="images[currentImageIndex].url" target="_blank">
+              {{images[currentImageIndex].title}}
+            </a>
+          </h4>
+          <p>{{images[currentImageIndex].body}}</p>
+        </div>
+
+      </div>
+
+    
+
+    <div class="description-project">
+      <h4>Tecnologias usadas</h4>
+      <section class="sect-imgs">
+        <figure *ngFor="let tech of images[currentImageIndex].tech">
+          <img [src]="tech.imgTech" [alt]="tech.alt">
+        </figure>
+      </section>
+    </div>
+
+  </div>
+</div>

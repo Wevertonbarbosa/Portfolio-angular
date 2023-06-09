@@ -1,0 +1,14 @@
+@media (max-width:558px) {
+  .coluna-2 {
+    min-width: fit-content;
+  }
+}
+
+@media (max-width:444px) {
+  .foto {
+    display: none;
+  }
+  .projeto {
+    flex: 1 0 68%;
+  }
+}

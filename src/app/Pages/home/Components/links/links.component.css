@@ -1,0 +1,92 @@
+.links-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 1vw;
+  justify-content: center
+}
+
+.links-img section figure {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+}
+h4 {
+  font-size: clamp(16px, 1.2vw, 1.2vw);
+}
+
+h5 {
+  font-size: clamp(13px, 1vw, 1vw);
+}
+h4,
+h5 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+#fiap-img {
+  width: 56%;
+  height: 100%;
+  object-fit: contain;
+  min-width: 50px;
+}
+
+.links-img .titulo-facul {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 138px;
+}
+.links-img section:first-child {
+  width: 53%;
+  border-radius: 17px;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1vw;
+  height: 21vh;
+}
+
+.rede-sociais {
+  display: flex;
+  width: 44.5%;
+  border-radius: 17px;
+  background-color: #1c1c1c;
+  flex-wrap: wrap;
+}
+.rede-sociais a:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.rede-sociais a {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#linkedin-img {
+  width: 61%;
+  min-width: 50px;
+}
+#linkedin-img:hover {
+  opacity: .5;
+  transform: translateY(-.2vw);
+  cursor: pointer;
+}
+
+#github-img {
+  width: 61%;
+  min-width: 50px;
+}
+#github-img:hover {
+  opacity: .5;
+  transform: translateY(-.2vw);
+  cursor: pointer;
+}

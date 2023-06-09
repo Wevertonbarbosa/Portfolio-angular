@@ -1,0 +1,55 @@
+h4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(16px, 1.3vw, 1.3vw);
+}
+
+.empresa {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh 0em;
+  row-gap: 10px;
+}
+
+.empresa figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11vw;
+  min-width: 119px;
+  height: 6vh;
+}
+
+.empresa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-body-atividades {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0em 2vw;
+  column-gap: 15px;
+  padding-bottom: 1vh;
+}
+
+.content-body-atividades p {
+  font-size: clamp(16px, 1vw, 1vw);
+}
+
+.container-tech-usadas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 12px;
+  padding: 1vw;
+}
+
+.tech-usadas img {
+  width: 4vw;
+  min-width: 50px;
+}

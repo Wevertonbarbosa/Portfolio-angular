@@ -1,0 +1,23 @@
+<div class="content-slide-projec">
+  <div class=" project">
+    <h4>Projetos</h4>
+    <a href="http://" routerLink="/habilidades">
+      <h5>Ver +</h5>
+    </a>
+  </div>
+
+  <div class="carousel-container">
+
+    <div class="carousel">
+      <div class="carousel-controls">
+        <button (click)="prevImage()">&#8249;</button>
+      </div>
+      <img [src]="images[currentImageIndex].src" [alt]="images[currentImageIndex].alt">
+      <div class="carousel-controls">
+        <button (click)="nextImage()">&#8250;</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
