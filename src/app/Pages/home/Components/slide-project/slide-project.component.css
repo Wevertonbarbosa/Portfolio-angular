@@ -7,74 +7,22 @@
   align-items: center;
 }
 
-.project {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: .3vw;
-  width: 100%;
-}
-
-.project h4 {
-  text-indent: 1em;
-  color: white;
-  font-weight: 900;
-  font-size: clamp(16px, 1.2vw, 1.2vw);
-  margin: 0;
-}
-
-.project a {
-  text-decoration: none;
-}
-
-.project h5 {
-  color: #9e9e9e;
-  padding-inline-end: 1em;
-  font-size: clamp(15px, 1.2vw, 1.2vw);
-  margin: 0;
-}
-
-.project h5:hover {
-  opacity: .6;
-  transform: translateY(-.1vw);
-}
-
-.carousel-container {
-  position: relative;
+.carousel{
   width: 100%;
   height: 100%;
 }
 
-.carousel {
-  width: 100%;
-  height: 34vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.imgs {
+  width: 100%; 
+  height: 40.8vh; 
+  border-radius: 20px; 
+  object-fit: cover;
+}
+.legenda{
+  width:90%;
+  left:6% !important;
 }
 
-.carousel img {
-  width: 70%;
-  height: 100%;
-  object-fit: fill;
-  border-radius: 12px;
-}
-
-.carousel-controls {
-  display: flex;
-  align-items: center;
-}
-
-.carousel-controls button {
-  font-size: clamp(46px, 4vw, 4vw);
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-}
-
-.carousel-controls button:hover {
-  opacity: .7;
+.carousel:hover .imgs{
+  opacity:.4;
 }

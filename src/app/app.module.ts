@@ -10,6 +10,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 
 import { HabilidadesModule } from './Pages/skills/Components/habilidades.module';
 import { AppComponent } from './app.component';
@@ -40,7 +42,8 @@ import { WelcomeComponent } from './Pages/home/Components/welcome/welcome.compon
     TabsModule.forRoot(),    
     ModalModule.forRoot(),
     TooltipModule.forRoot(),
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

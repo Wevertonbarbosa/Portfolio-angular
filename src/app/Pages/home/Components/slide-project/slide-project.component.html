@@ -1,5 +1,5 @@
 <div class="content-slide-projec">
-  <div class=" project">
+  <!-- <div class=" project">
     <h4>Projetos</h4>
     <a href="http://" routerLink="/habilidades">
       <h5>Ver +</h5>
@@ -18,6 +18,15 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 
+  <carousel class="carousel" [noPause]="false">
+    <slide style="width: 100%; height: 100%;" *ngFor="let img of images">
+      <img class="imgs" [src]="img.src" [alt]="img.alt">
+      <div class="carousel-caption d-none d-md-block pt-0 pb-0 legenda">
+        <h5>Ver +</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </slide>
+  </carousel>
 </div>
