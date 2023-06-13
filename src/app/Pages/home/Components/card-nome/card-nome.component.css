@@ -22,13 +22,15 @@ h5 {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
+  margin: 0;
 }
 
 p {
   color: darkgrey;
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  font-size: clamp(15px, 1vw, 1vw)
+  font-size: clamp(15px, 1vw, 1vw);
+  margin:0;
 }
 
 .coluna-2 {
@@ -62,6 +64,7 @@ p {
 }
 .foto figure {
   width: 98%;
+  margin: 0;
 }
 .foto figure img {
   width: 100%;

@@ -1,3 +1,39 @@
-.customClass.active li{
-  color: red;
+.container-tabSobre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: .5vw;
+  column-gap: .4vw;
+}
+
+.content-tab {
+  flex: 1 55vw;
+}
+
+h6 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+h5,
+p {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.conteudo {
+  background-color: #1c1c1c;
+  padding: 1em;
+  border-bottom-right-radius: 40px
+}
+
+.curriculo {
+  flex: 1 40vw;
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36.75vh;
+  border-radius: 17px;
 }

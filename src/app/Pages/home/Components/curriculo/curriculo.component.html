@@ -1,0 +1,19 @@
+<button type="button"
+style="font-family: 'Poppins', sans-serif;"
+class="btn btn-outline-primary fw-semibold btn-lg p-2" 
+(click)="openModalWithClass(template)">
+  Currículo 
+</button>
+
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Modal</h4>
+    <button type="button" class="close btn-close pull-right" aria-label="Close"
+    (click)="modalRef?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Just a modal with a bunch of words inside, nothing serious.
+  </div>
+</ng-template>

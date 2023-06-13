@@ -1,19 +1,20 @@
-<div>
-  <tabset>
-    <tab heading="Static">
-      Tab 1
-    </tab>
-    <tab>
-      <ng-template tabHeading>
-        <span class="badge badge-secondary bg-secondary">Heading</span>
-      </ng-template>
-      I've got an HTML heading. Pretty cool!
-    </tab>
-    <tab>
-      <ng-template tabHeading>
-        <i><b>Tab 3</b></i>
-      </ng-template>
-      Tab with html tags in heading
-    </tab>
-  </tabset>
+<div class="container-tabSobre">
+  <div class="content-tab">
+    <tabset>
+      <tab *ngFor="let content of details">
+        <ng-template tabHeading>
+          <h6>{{content.sobre}}</h6>
+        </ng-template>
+        <div class="conteudo">
+          <h5>{{content.content.title}}</h5>
+          <p>{{content.content.body}}</p>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+
+  <div class="curriculo">
+    <app-curriculo></app-curriculo>
+  </div>
+
 </div>
