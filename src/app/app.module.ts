@@ -5,8 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
-// PrimeNG
-import {ButtonModule} from 'primeng/button'
+// NGX-BOOTSTRAP
+import { TabsModule } from 'ngx-bootstrap/tabs';
 
 
 import { HabilidadesModule } from './Pages/skills/Components/habilidades.module';
@@ -32,10 +32,10 @@ import { WelcomeComponent } from './Pages/home/Components/welcome/welcome.compon
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    ButtonModule,
     HttpClientModule,
     FormsModule,
-    HabilidadesModule
+    HabilidadesModule,
+    TabsModule.forRoot()    
   ],
   providers: [],
   bootstrap: [AppComponent]
