@@ -13,6 +13,18 @@
     </tabset>
   </div>
 
+  <div class="content-pills">
+    <tabset [vertical]="true" type="pills">
+      <tab *ngFor="let content of details" [heading]="content.sobre">
+        <div class="conteudo">
+          <h5>{{content.content.title}}</h5>
+          <p>{{content.content.body}}</p>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+
+
   <div class="curriculo">
     <app-curriculo></app-curriculo>
   </div>

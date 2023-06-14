@@ -1,0 +1,33 @@
+@media (max-width:498px){
+
+.content-tab{
+  display: none;
+}
+
+.content-pills{
+  display: flex;
+  width: 100%;
+}
+.content-pills tabset{
+  width: 100%;
+  color: white;
+
+}
+
+.container-tabSobre{
+  width: 100%;
+  padding: 4vw 0vw;
+}
+
+}
+
+@media (max-width:472px) {
+  .container-tabSobre{
+    row-gap: 6vw;
+  }
+  .conteudo{
+    height: 52vh;
+  }
+  
+
+}

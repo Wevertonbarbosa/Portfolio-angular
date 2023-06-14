@@ -12,6 +12,10 @@
   flex: 1 55vw;
   min-width:469px;
 }
+.content-pills{
+  display: none;
+}
+
 
 h6 {
   font-weight: bold;

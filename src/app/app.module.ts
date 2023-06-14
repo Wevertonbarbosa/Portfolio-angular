@@ -11,6 +11,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 
 import { HabilidadesModule } from './Pages/skills/Components/habilidades.module';
@@ -43,7 +44,8 @@ import { WelcomeComponent } from './Pages/home/Components/welcome/welcome.compon
     ModalModule.forRoot(),
     TooltipModule.forRoot(),
     ButtonsModule.forRoot(),
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    AccordionModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
