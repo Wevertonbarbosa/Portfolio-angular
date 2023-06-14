@@ -16,4 +16,9 @@ export class CurriculoComponent {
       Object.assign({}, { class: 'gray modal-lg' })
     );
   }
+
+  download(){
+    
+  }
+
 }

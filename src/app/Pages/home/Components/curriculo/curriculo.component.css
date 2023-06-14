@@ -1,10 +1,35 @@
-.gif-curriculo {
+.container-curriculo {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
+.container-curriculo figure {
+  margin: 0;
+}
+.container-curriculo figure img {
+  width: 12vw;
+  min-width:134px;
+}
 
-.gif-curriculo img {
-  width: 102px;
-  padding-bottom: 1em;
+.content-pdf{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-pdf section{
+  width: 100%;
+}
+.content-pdf section embed {
+  width: 100%;
+  height: 60vh;
+}
+
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1vw;
+  border-top: 1px solid rgb(197 195 195);
 }

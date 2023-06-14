@@ -26,7 +26,7 @@ export class ProjetosComponent {
       sobre: 'Formação',
       content: {
         title: '· Minhas Formações',
-        body: `· Formado e participante do projeto Start <Tech> TOTVS, como desenvolvedor Java na maior empresa de tecnologia do Brasil, TOTVS e parceria com Let's code from Ada e formado como Desenvolvedor de Front-end/Web no Instituto da oportunidade social (IOS).`,
+        body: `Formado e participante do projeto Start <Tech> TOTVS, como desenvolvedor Java na maior empresa de tecnologia do Brasil, TOTVS e parceria com Let's code from Ada e formado como Desenvolvedor de Front-end/Web no Instituto da oportunidade social (IOS).`,
       },
     },
     {

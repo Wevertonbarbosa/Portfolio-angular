@@ -5,15 +5,18 @@
   justify-content: center;
   padding-top: .5vw;
   column-gap: .4vw;
+  row-gap: 1vw;
 }
 
 .content-tab {
   flex: 1 55vw;
+  min-width:469px;
 }
 
 h6 {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
+  font-size: clamp(17px, 1.4vw, 1.5vw);
 }
 
 h5,
@@ -21,11 +24,18 @@ p {
   color: white;
   font-family: 'Poppins', sans-serif;
 }
-
+h5{
+  font-size: clamp(17px, 1.4vw, 1.5vw);
+}
+p{
+  font-size: clamp(14px, 1.3vw, 1.3vw);
+  margin:0;
+}
 .conteudo {
   background-color: #1c1c1c;
   padding: 1em;
-  border-bottom-right-radius: 40px
+  border-bottom-right-radius: 40px;
+  height: 35vh;
 }
 
 .curriculo {
@@ -34,6 +44,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 36.75vh;
+  height: 42.75vh;
   border-radius: 17px;
 }

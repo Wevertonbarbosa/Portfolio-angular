@@ -22,7 +22,19 @@
   width:90%;
   left:6% !important;
 }
-
+h5 {
+  font-size: clamp(18px, 1.5vw, 1vw);
+  font-family: 'Poppins', sans-serif;  
+  margin: 0;
+  font-weight: 600;
+}
+p{
+  font-size: clamp(15px, 1vw, 1vw);
+}
+.legenda a{
+  text-decoration: none;
+  margin: 0;
+}
 .carousel:hover .imgs{
   opacity:.4;
 }
