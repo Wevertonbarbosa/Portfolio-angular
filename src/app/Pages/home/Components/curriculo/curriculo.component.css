@@ -12,6 +12,9 @@
   min-width:134px;
 }
 
+h2{
+  font-size: clamp(18px,1.5vw,1.5vw);
+}
 .content-pdf{
   display: flex;
   align-items: center;

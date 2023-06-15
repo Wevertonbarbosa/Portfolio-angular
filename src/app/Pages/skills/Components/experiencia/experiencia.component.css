@@ -3,7 +3,12 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(16px, 1.3vw, 1.3vw);
 }
-
+p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(14px, 1.3vw, 1.3vw);
+  margin:0;
+}
 .empresa {
   display: flex;
   align-items: center;

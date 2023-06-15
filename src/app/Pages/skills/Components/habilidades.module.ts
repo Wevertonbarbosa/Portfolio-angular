@@ -3,6 +3,10 @@ import { CommonModule } from '@angular/common';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { MenuComponent } from './menu/menu.component';
 
+//NGX-BOOTSTRAP
+import { TabsModule } from 'ngx-bootstrap/tabs';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
 import { CarouselComponent } from './carousel/carousel.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
@@ -14,12 +18,14 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
     HabilidadesComponent,
     MenuComponent,
     CarouselComponent, 
-    ExperienciaComponent
+    ExperienciaComponent,
   ],
   exports:[HabilidadesComponent],
   imports: [
     CommonModule,
-    AppRoutingModule    
+    AppRoutingModule,
+    TabsModule.forRoot(),
+    CarouselModule.forRoot()    
   ]
 })
 export class HabilidadesModule { }
