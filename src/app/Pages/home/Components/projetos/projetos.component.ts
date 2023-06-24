@@ -19,7 +19,7 @@ export class ProjetosComponent {
       sobre: 'Habilidades',
       content: {
         title: '· Habilidades de programação/Programming Skill:',
-        body:'HTML5, CSS3, Bootstrap, JavaScript React.Js, Java, Styled-Components, Angular, Ionic, TypeScript, SQL Serve e Spring Boot. Ferramentas/Tools:Visual Studio Code, Git e Github e IntelliJ IDEA',
+        body:'HTML5, CSS3, Bootstrap, JavaScript React.Js, Java, Styled-Components, Angular, Ionic, TypeScript, SQL Serve e Spring Boot, PO-UI, Ngx-Bootstrap. Ferramentas/Tools:Visual Studio Code, Git e Github e IntelliJ IDEA',
       },
     },
     {
