@@ -92,19 +92,4 @@ export class CarouselComponent {
       url: 'https://github.com/Wevertonbarbosa/StartTech-Banco-Dados-Sql',
     },
   ];
-
-  currentImageIndex = 0;
-  prevImage() {
-    this.currentImageIndex =
-      this.currentImageIndex === 0
-        ? this.images.length - 1
-        : this.currentImageIndex - 1;
-  }
-
-  nextImage() {
-    this.currentImageIndex =
-      this.currentImageIndex === this.images.length - 1
-        ? 0
-        : this.currentImageIndex + 1;
-  }
 }

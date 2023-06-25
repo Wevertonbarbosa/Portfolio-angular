@@ -17,8 +17,4 @@ export class CurriculoComponent {
     );
   }
 
-  download(){
-      window.open('assets/Doc/WevertonSilva.pdf')
-  }
-
 }
