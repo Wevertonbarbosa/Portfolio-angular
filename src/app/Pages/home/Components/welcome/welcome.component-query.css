@@ -1,4 +1,8 @@
 @media (max-width:400px){
+  .content-1{
+    justify-content: center
+  }
+
   .welcome{
     flex-wrap: nowrap;
   }
@@ -8,6 +12,7 @@
   .welcome figure img{
     display: none;
   }
+
 }
 @media (max-width:338px){
   .welcome section h1 {
