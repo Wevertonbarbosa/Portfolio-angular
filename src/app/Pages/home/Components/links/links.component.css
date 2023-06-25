@@ -31,7 +31,7 @@ h5 {
   width: 56%;
   height: 100%;
   object-fit: contain;
-  min-width: 50px;
+  min-width: 59px;
 }
 
 .links-img .titulo-facul {
@@ -75,7 +75,7 @@ h5 {
 
 #linkedin-img {
   width: 61%;
-  min-width: 50px;
+  min-width: 60px;
 }
 #linkedin-img:hover {
   opacity: .5;
@@ -85,7 +85,7 @@ h5 {
 
 #github-img {
   width: 61%;
-  min-width: 50px;
+  min-width: 60px;
 }
 #github-img:hover {
   opacity: .5;
