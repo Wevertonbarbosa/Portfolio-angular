@@ -1,0 +1,12 @@
+@media (max-width:500px){
+  .content-pdf{
+    display: none;
+  }
+  .content-img-mobile{
+    display: flex;
+  }
+  .content-img-mobile figure img{
+    width: 100%;
+    height: 100%;
+  }
+}

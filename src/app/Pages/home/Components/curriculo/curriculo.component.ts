@@ -4,7 +4,7 @@ import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 @Component({
   selector: 'app-curriculo',
   templateUrl: './curriculo.component.html',
-  styleUrls: ['./curriculo.component.css']
+  styleUrls: ['./curriculo.component.css', './curriculo-query.css']
 })
 export class CurriculoComponent {
   modalRef?: BsModalRef;

@@ -9,12 +9,17 @@
 }
 .container-curriculo figure img {
   width: 12vw;
-  min-width:134px;
+  min-width:155px;
 }
 
 h2{
   font-size: clamp(18px,1.5vw,1.5vw);
 }
+
+.content-img-mobile{
+  display:none;
+}
+
 .content-pdf{
   display: flex;
   align-items: center;
