@@ -1,0 +1,54 @@
+@media(max-width:750px){
+  .cards-projetos{
+    grid-template-columns: 85vw;
+  }
+  .setaTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .setaTop figure {
+    margin: 0;
+  }
+
+  .setaTop figure img {
+    width: 8vw;
+    min-width: 50px;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+}
+
+@media(max-width:600px){
+  .title{
+    padding-left: 2vw;
+  }
+}
+
+@media(max-width:454px){
+  .titulo-descricao h4{
+    font-size: 14.4px;
+  }
+}
+
+@media(max-width:375px){
+  .cards-projetos{
+    grid-template-columns: 95vw;
+  }
+}

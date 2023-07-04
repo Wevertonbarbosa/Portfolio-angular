@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HabilidadesComponent } from './Pages/skills/Components/habilidades/habilidades.component';
 import { CardNomeComponent } from './Pages/home/Components/card-nome/card-nome.component';
+import { ProjectComponent } from './Pages/projects/Components/project/project.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,11 @@ const routes: Routes = [
   },
   {
     path: 'habilidades',
-    component: HabilidadesComponent
+    component: HabilidadesComponent,
+  },
+  {
+    path: 'project',
+    component: ProjectComponent,
   },
 ];
 

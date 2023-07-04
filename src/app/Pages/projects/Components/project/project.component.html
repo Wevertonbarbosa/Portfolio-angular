@@ -1,0 +1,75 @@
+<div id="inicio" class="main-projeto">
+
+  <section  class="seta-voltar">
+    <figure>
+      <a routerLink="/habilidades">
+        <img
+          src="https://d9hhrg4mnvzow.cloudfront.net/serpolengenharia.com.br/lp-tratamento-concreto/6bc7a642-012d1a89-seta-2.gif"
+          alt="Seta voltar Home">
+      </a>
+    </figure>
+  </section>
+
+
+  <section class="sessao-projetos">
+    <div class="title">
+      <section class="title-skill">
+        <h3>Projetos /> </h3>
+        <h4><i>Projects/My Projects</i></h4>
+      </section>
+    </div>
+
+    <div class="titulo-descricao">
+      <h4>Clique nas imagens para ver as descrições dos projetos</h4>
+    </div>
+    <div class="cards-projetos">
+
+      <section *ngFor="let project of images" class="projeto">
+        <figure class="card-fig" (click)="lgModal.show()">
+          <img [src]="project.src" [alt]="project.alt">
+        </figure>
+
+        <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog"
+          aria-labelledby="dialog-sizes-name1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 id="dialog-sizes-name1" class="modal-title pull-left">{{project.title}}</h4>
+                <button type="button" class="btn-close close pull-right" (click)="lgModal.hide()" aria-label="Close">
+                  <span aria-hidden="true" class="visually-hidden">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <figure>
+                  <img [src]="project.src" [alt]="project.alt">
+                </figure>
+                <div class="body-project">
+                  <h4>{{project.title}}</h4>
+                  <p>{{project.body}}</p>
+                </div>
+              </div>
+
+              <div class="codigo">
+                <a class="btn btn-outline-success fw-semibold" [href]="project.url" target="_blank"
+                  rel="noopener noreferrer">
+                  <h4>Ver o Código</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  
+  <div class="setaTop">
+    <figure>
+      <a href="/project#inicio">
+        <img
+          src="../../../../../assets/img/icon-seta-top.png"
+          alt="Seta para ir pro inicio da página">
+      </a>
+    </figure>
+  </div>
+
+</div>

@@ -6,10 +6,12 @@ import { MenuComponent } from './menu/menu.component';
 //NGX-BOOTSTRAP
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { CarouselComponent } from './carousel/carousel.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
+import { ProjectComponent } from '../../projects/Components/project/project.component';
 
 
 
@@ -19,13 +21,15 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
     MenuComponent,
     CarouselComponent, 
     ExperienciaComponent,
+    ProjectComponent
   ],
   exports:[HabilidadesComponent],
   imports: [
     CommonModule,
     AppRoutingModule,
     TabsModule.forRoot(),
-    CarouselModule.forRoot()    
+    CarouselModule.forRoot(),    
+    ModalModule.forRoot(),
   ]
 })
 export class HabilidadesModule { }
