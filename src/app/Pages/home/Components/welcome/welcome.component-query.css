@@ -1,26 +1,30 @@
-@media (max-width:400px){
-  .content-1{
-    justify-content: center
+@media(max-width:999px) {
+  .welcome section {
+    text-align: center;
   }
+}
 
-  .welcome{
+@media (max-width:412px) {
+  .welcome figure img {
+    display: none;
+  }
+  .welcome {
     flex-wrap: nowrap;
   }
+
   .welcome section {
     flex: 1 0 100%;
   }
-  .welcome figure img{
-    display: none;
-  }
+}
 
-}
-@media (max-width:338px){
+@media (max-width:338px) {
   .welcome section h1 {
-    font-size:x-large;
+    font-size: x-large;
   }
 }
-@media (max-width:320px){
+
+@media (max-width:320px) {
   .welcome section h1 {
-    font-size:x-large;
+    font-size: x-large;
   }
 }

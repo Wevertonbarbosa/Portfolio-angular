@@ -4,6 +4,40 @@
   }
 }
 
+@media(max-width:999px){
+  .setaTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .setaTop figure {
+    margin: 0;
+  }
+
+  .setaTop figure img {
+    width: 8vw;
+    min-width: 50px;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+}
+
 @media (max-width:768px) {
   .content-skills {
     grid-template-columns: 40vw 40vw;

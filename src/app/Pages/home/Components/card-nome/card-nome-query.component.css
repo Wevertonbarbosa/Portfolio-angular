@@ -1,3 +1,65 @@
+@media(max-width:999px) {
+  .setaHabilidades {
+    display: none;
+  }
+
+  .setaMobile-habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 3vw;
+  }
+
+  .setaMobile-habilidades h3 {
+    font-style: italic;
+    color: white;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  .setaMobile-habilidades figure {
+    margin: 0;
+  }
+
+  .setaMobile-habilidades figure img {
+    width: 8vw;
+    min-width: 50px;
+    rotate: 180deg;
+  }
+
+  .setaTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .setaTop figure {
+    margin: 0;
+  }
+
+  .setaTop figure img {
+    width: 8vw;
+    min-width: 50px;
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+}
+
 @media (max-width:558px) {
   .coluna-2 {
     min-width: fit-content;
@@ -8,10 +70,18 @@
   .foto {
     display: none;
   }
+
   .projeto {
     flex: 1 0 68%;
   }
+
   .nome {
     padding: 3vw 4.5vw;
+  }
+}
+
+@media (max-width:390px) {
+  .setaMobile-habilidades h3 {
+    font-size: 19px;
   }
 }

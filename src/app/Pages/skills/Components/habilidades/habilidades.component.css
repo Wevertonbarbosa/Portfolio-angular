@@ -96,8 +96,6 @@
   font-size: clamp(20px, 1vw, 1vw);
 }
 
-.po-gauge {
-  color: black;
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif;
+.setaTop{
+  display: none;
 }
