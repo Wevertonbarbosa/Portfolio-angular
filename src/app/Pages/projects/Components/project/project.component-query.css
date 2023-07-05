@@ -1,8 +1,5 @@
-@media(max-width:750px){
-  .cards-projetos{
-    grid-template-columns: 85vw;
-  }
-  .seta-voltar{
+@media(max-width:999px) {
+  .seta-voltar {
     left: -20px;
   }
 
@@ -39,20 +36,28 @@
 
 }
 
-@media(max-width:600px){
-  .title{
+
+@media(max-width:750px) {
+  .cards-projetos {
+    grid-template-columns: 85vw;
+  }
+
+}
+
+@media(max-width:600px) {
+  .title {
     padding-left: 2vw;
   }
 }
 
-@media(max-width:454px){
-  .titulo-descricao h4{
+@media(max-width:454px) {
+  .titulo-descricao h4 {
     font-size: 14.4px;
   }
 }
 
-@media(max-width:375px){
-  .cards-projetos{
+@media(max-width:375px) {
+  .cards-projetos {
     grid-template-columns: 95vw;
   }
 }

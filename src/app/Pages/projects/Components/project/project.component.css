@@ -23,8 +23,6 @@
   opacity: .7;
 }
 
-
-
 .title {
   display: flex;
   width: 100%;
@@ -60,6 +58,7 @@
   gap: 10px;
   width: 100%;
   justify-content: center;
+  padding-bottom: 2vw;
 }
 
 .card-fig {
