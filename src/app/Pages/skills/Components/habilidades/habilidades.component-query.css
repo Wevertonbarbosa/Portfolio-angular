@@ -55,7 +55,7 @@
 
 @media (max-width:550px) {
   .content-skills {
-    grid-template-columns: 60vw;
+    grid-template-columns: 70vw;
   }
 
   .skill img {
@@ -69,16 +69,10 @@
   }
 
   .content-skills {
-    grid-template-columns: 80vw;
+    grid-template-columns: 95vw;
   }
 
   .skill img {
     width: 35vw;
 }
-}
-
-@media (max-width:320px) {
-  .content-skills {
-    grid-template-columns: 75vw;
-  }
 }

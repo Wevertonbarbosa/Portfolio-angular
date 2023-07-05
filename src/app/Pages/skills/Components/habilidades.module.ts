@@ -8,7 +8,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { ModalModule } from 'ngx-bootstrap/modal';
 
-import { CarouselComponent } from './carousel/carousel.component';
+
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { ProjectComponent } from '../../projects/Components/project/project.component';
@@ -18,8 +18,7 @@ import { ProjectComponent } from '../../projects/Components/project/project.comp
 @NgModule({
   declarations: [
     HabilidadesComponent,
-    MenuComponent,
-    CarouselComponent, 
+    MenuComponent, 
     ExperienciaComponent,
     ProjectComponent
   ],
