@@ -12,14 +12,6 @@
 .seta-voltar figure {
   display: flex;
   align-items: center;
-  line-height: 17px;
-  column-gap: 0.9vw
-}
-
-.seta-voltar p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 1.2vw;
 }
 
 .seta-voltar img {

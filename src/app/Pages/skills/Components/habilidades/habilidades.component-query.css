@@ -4,7 +4,7 @@
   }
 }
 
-@media(max-width:999px){
+@media(max-width:999px) {
   .setaTop {
     display: flex;
     align-items: center;
@@ -63,12 +63,22 @@
   }
 }
 
-@media (max-width:320px){
+@media (max-width:359px) {
+  .setaHabilidades {
+    padding-top: 4vw;
+  }
+
+  .content-skills {
+    grid-template-columns: 80vw;
+  }
+
+  .skill img {
+    width: 35vw;
+}
+}
+
+@media (max-width:320px) {
   .content-skills {
     grid-template-columns: 75vw;
   }
-  
-  .skill img {
-    width: 30vw;
-  } 
 }

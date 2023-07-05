@@ -2,6 +2,10 @@
   .cards-projetos{
     grid-template-columns: 85vw;
   }
+  .seta-voltar{
+    left: -20px;
+  }
+
   .setaTop {
     display: flex;
     align-items: center;
